@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: black; 
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Thasadith', sans-serif;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+}
+header span{
+    margin-right: 20px;
+}
+header img{
+    width: 62px;
+    height: 50px;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+a:link{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 0.5e
+}
+a:hover{
+    color: orangered;
+}
+section{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: red; 
+    font-size: 2em;
+    font-family: 'Thasadith', sans-serif;
+    color: whitesmoke;
+    background-image: url(768x468.jpg);
+    height: 339px;
+    margin-top: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: black; 
+    font-size: 2em;
+    font-family: 'Thasadith', sans-serif;
+    color: whitesmoke;
+}
+a{
+    color: gold;
+    font-size: 0.6em;
+}
+@media (min-width:377px) and (max-width:425px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px;
+        padding:0px;
+    }
+    header{
+        width: 100%;
+        height:80px;
+        position: fixed;
+        top: 0;
+    }
+    header span{
+        font-size: 0.6em;
+        margin-right: 10px;
+    }
+    section{
+        background-image: url(425x468.jpg);
+        height: 357px;
+        margin-top: 50px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin-top: -15px;
+        margin-bottom: 0px;
+        list-style-type: none;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        
+    }
+    a:link{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-decoration: none;
+        font-size: 0.4em;
+        color : gold;
+    }
+    a:hover{
+        color: orangered;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    a{
+        color: gold;
+    }
+
+}
+@media (min-width:321px) and (max-width:376px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px;
+        padding:0px;
+    }
+    header span{
+        font-size: 0.7em;
+        margin-right: 10px;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        top: 0;
+    }
+    section{
+        background-image: url(375x478.jpg);
+        height: 357px;
+        margin-top: 50px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin-top: -10px;
+        margin-bottom: 0px;
+        list-style-type: none;
+        flex-grow: 1;
+        flex-wrap: nowrap;
+        
+    }
+    a:link{
+        margin-left: 0px;
+        margin-right: 5px;
+        text-decoration: none;
+        font-size: 0.4em
+    }
+    a{
+        color: gold;
+    }
+    a:hover{
+        color: orangered;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+    @media  (width:320px ){
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+            padding:0px;
+        }
+        header{
+            width: 320px;
+            height:80px;
+            position: fixed;
+            top: 0;
+        }
+        header span{
+            font-size: 0.6em;
+            margin-right: 10px;
+            margin-top:10px;
+        }
+        section{
+            background-image: url(320x517.jpg);
+            background-repeat: no-repeat;
+            height: 357px;
+            margin-top: 50px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+            margin-top: -5px;
+            margin-bottom: 0px;
+            list-style-type: none;
+            flex-grow: 1;
+            flex-wrap: wrap;            
+        }
+        a:link{
+            margin-left: 2px;
+            margin-right: 2px;
+            text-decoration: none;
+            font-size: 0.3em;
+        }
+        a{
+            color: gold;
+        }
+        a:hover{
+            color: orangered;
+        }
+        footer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
