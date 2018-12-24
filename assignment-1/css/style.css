@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+.main{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+background-color: red;
+
+}
+.company{
+text-transform: capitalize;
+font-family: 'Thasadith', sans-serif;
+font-weight: bold;
+color: orangered;
+letter-spacing: 1.3px;
+margin-top: 2px;
+margin-bottom: 0px;
+}
+.containerone{
+margin-bottom: 0px;
+background-color: black;
+width: 100%;
+height: 100%;
+border: 0.5px solid orangered;
+display: flex;
+flex-direction: row;
+
+}
+ul li{
+list-style-type: none; 
+display: inline-block;
+margin-right: 10px;
+}
+a:link{
+font-size: 1.2em;
+text-decoration: none;  
+font-weight: bold;
+color: whitesmoke;
+font-family: 'Thasadith', sans-serif;
+letter-spacing: 1.2px;
+}
+a:hover{
+color: seagreen;
+height: auto;
+width: auto;
+}
+.containertwo{
+background-color: snow;
+width: 100%;
+height: 100%;
+background-image: url(/home/user/Desktop/stackroute/assignment-1/images/pic6.jpg);
+background-repeat: no-repeat;
+}
+section.containertwo{
+height: 900px;
+}
+
+.containerthree{
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: black; 
+color: white;
+font-family: 'Thasadith', sans-serif;
+font-weight: bold;
+align-items: center;
+border: 0.5px solid orangered;
+color: orangered;
+display: flex;
+flex-direction: row;
+}
+.btn{
+width: 100%;
+height: 100%;
+position: relative;
+top: 50%;
+left: -15%;
+border: 2px solid orangered;
+background-color: black;
+color: whitesmoke;
+font-family: 'Thasadith', sans-serif;
+font-weight: bolder;  
+letter-spacing: 2px;
+font-size: 1.2em;
+padding: 10px;
+text-align: center;  
+}
+.btn:hover{
+width: 100%;
+height: 100%;
+background-color: orangered;
+border: 2px solid black;
+border-radius: 10px;
+}
+
+.links{
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+.social{
+list-style-type: none;
+text-decoration: none;
+display: block;
+color: white;
+text-transform: capitalize;
+font-family: 'Thasadith', sans-serif;
+font-weight: bold;
+margin-right: 20px;
+margin-left: 20px;
+width: 100%;
+margin-bottom: 40px;
+color: orangered;
+margin-top: 10px;
+}
+.containertwo span{
+color: white;
+font-size: 5em;
+position: relative;
+width: 100%;
+height: 100%;
+top: 30%;
+left: 30%;
+color: seashell;
+font-family: 'Thasadith', sans-serif;
+font-weight: bold;
+animation-name: anime;
+animation-duration: 10s;
+}
+@keyframes anime {
+    0%   {color: purple;}
+    10%   {color: violet;}
+    20%   {color: blue;}
+    30%   {color: green;}
+    40%   {color: yellow;}
+    50%   {color: orange;}
+    60%  {color: red;}
+    70%  {color: cyan;}
+    80% {color: lightseagreen;}
+    90% {color: magenta;}
+    100% {color: beige;}
+  }
+.msg{
+margin-top: 10px;
+}
+
+@media (min-width:992px) and (max-width:1199px){
+.containertwo span{
+    color: white;
+    font-size: 4em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 30%;
+    left: 30%;
+    color: seashell;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    animation-name: anime;
+    animation-duration: 10s;
+}
+@keyframes anime {
+    0%   {color: purple;}
+    10%   {color: violet;}
+    20%   {color: blue;}
+    30%   {color: green;}
+    40%   {color: yellow;}
+    50%   {color: orange;}
+    60%  {color: red;}
+    70%  {color: cyan;}
+    80% {color: lightseagreen;}
+    90% {color: magenta;}
+    100% {color: beige;}
+  }
+.btn:hover{
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left: -5%;
+    border: 2px solid orangered;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bolder;  
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    padding: 5px;
+    text-align: center;  
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+.containertwo span{
+color: white;
+font-size: 3em;
+position: relative;
+width: 100%;
+height: 100%;
+top: 30%;
+left: 30%;
+color: seashell;
+font-family: 'Thasadith', sans-serif;
+font-weight: bold;
+animation-name: anime;
+animation-duration: 10s;
+}
+@keyframes anime {
+    0%   {color: purple;}
+    10%   {color: violet;}
+    20%   {color: blue;}
+    30%   {color: green;}
+    40%   {color: yellow;}
+    50%   {color: orange;}
+    60%  {color: red;}
+    70%  {color: cyan;}
+    80% {color: lightseagreen;}
+    90% {color: magenta;}
+    100% {color: beige;}
+  }
+.btn:hover{
+width: 100%;
+height: 100%;
+background-color: orangered;
+border: 2px solid black;
+border-radius: 10px;
+}
+.btn{
+width: 100%;
+height: 100%;
+position: relative;
+top: 50%;
+left: -5%;
+border: 2px solid orangered;
+background-color: black;
+color: whitesmoke;
+font-family: 'Thasadith', sans-serif;
+font-weight: bolder;  
+letter-spacing: 2px;
+font-size: 1.1em;
+padding: 5px;
+text-align: center;  
+}
+}
+@media (max-width:767px){
+.containertwo span{
+color: white;
+font-size: 2.5em;
+position: relative;
+width: 100%;
+height: 100%;
+top: 30%;
+left: 30%;
+color: seashell;
+font-family: 'Thasadith', sans-serif;
+font-weight: bold;
+animation-name: anime;
+animation-duration: 10s;
+}
+@keyframes anime {
+    0%   {color: purple;}
+    10%   {color: violet;}
+    20%   {color: blue;}
+    30%   {color: green;}
+    40%   {color: yellow;}
+    50%   {color: orange;}
+    60%  {color: red;}
+    70%  {color: cyan;}
+    80% {color: lightseagreen;}
+    90% {color: magenta;}
+    100% {color: beige;}
+  }
+.btn:hover{
+width: 100%;
+height: 100%;
+background-color: orangered;
+border: 2px solid black;
+border-radius: 10px;
+}
+.btn{
+width: 100%;
+height: 100%;
+position: relative;
+top: 50%;
+left: -10%;
+border: 2px solid orangered;
+background-color: black;
+color: whitesmoke;
+font-family: 'Thasadith', sans-serif;
+font-weight: bolder;  
+letter-spacing: 2px;
+font-size: 1.1em;
+padding: 5px;
+text-align: center;  
+}
+}
+
