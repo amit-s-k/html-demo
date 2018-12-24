@@ -1,3 +1,3 @@
 # HTML Demo
 
-This is a html demo class
+This repository is for learning to create a sample webpage
